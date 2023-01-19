@@ -1,15 +1,10 @@
-var drone = new ScaleDrone('6kUd68NohslUvV6L');
+var drone = new ScaleDrone('fl4XTh6HB9FntxDB');
 
 drone.on('open', function (error) {
   if (error) return console.error(error);
   
-  getRoom();
+  var room = drone.subscribe('general-chat');
   
-  function getRoom() {
-    currentRoom=prompt('Room to join?')
-    var room = drone.subscribe(currentRoom);
-  }
-
   room.on('open', function (error) {
     if (error) return console.error(error);
     console.log('Connected to room');
