@@ -1,4 +1,4 @@
-var drone = new ScaleDrone('NkW9BxDLOg2Zps2l');
+var drone = new ScaleDrone('6kUd68NohslUvV6L');
 
 drone.on('open', function (error) {
   if (error) return console.error(error);
