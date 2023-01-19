@@ -1,3 +1,6 @@
+if(confirm("This is Instant text version, if you want to go to the video application click ok")){
+   window.location = "https://instant-view.onrender.com/";
+}else {//do nothing. This will fire if cancel is clicked.}
 var drone = new ScaleDrone('fl4XTh6HB9FntxDB');
 
 drone.on('open', function (error) {
