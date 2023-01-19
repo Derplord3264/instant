@@ -1,4 +1,4 @@
-var drone = new ScaleDrone('6kUd68NohslUvV6L');
+var drone = new ScaleDrone('fl4XTh6HB9FntxDB');
 
 drone.on('open', function (error) {
   if (error) return console.error(error);
@@ -30,7 +30,7 @@ function onSubmitForm(event) {
 
 function sendMessageToScaleDrone(name, content) {
   drone.publish({
-    room: 'general-chat',
+    room: currentRoom,
     message: {
       name: name,
       content: content
