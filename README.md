@@ -1,12 +1,16 @@
 <h1>Instant IRC</h1>
 Instant is a scaledrone based web IRC focused on privacy and a beutiful ui
 <h2>Thinks to work on</h2>
-Room Button CSS
-Login???
-integration with instant connect ✔ *in beta
+<ul>
+  <li>Room Button CSS</li>
+  <li>Login Screen</li>
+  <li>Integration with instant connect</li>
+</ul>
 
 <h2>CREDITS</h2>
-Derplord3264
-Cyberslash
-ExpertCoder124
-_____________
+<ul>
+  <li>Derplord3264</li>
+  <li>Cyberslash</li>
+  <li>ExbertCoder124</li>
+  <li>Adrian</li>
+</ul>
