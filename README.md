@@ -11,6 +11,5 @@ Instant is a scaledrone based web IRC focused on privacy and a beutiful ui
 <ul>
   <li>Derplord3264</li>
   <li>Cyberslash</li>
-  <li>ExbertCoder124</li>
-  <li>Adrian</li>
+  <li>ExpertCoder124</li>
 </ul>
