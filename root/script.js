@@ -3,13 +3,8 @@ var drone = new ScaleDrone('fl4XTh6HB9FntxDB');
 drone.on('open', function (error) {
   if (error) return console.error(error);
   
-  getRoom();
+  var room = drone.subscribe('general-chat');
   
-  function getRoom() {
-    currentRoom=prompt('Room to join?')
-    var room = drone.subscribe(currentRoom);
-  }
-
   room.on('open', function (error) {
     if (error) return console.error(error);
     console.log('Connected to room');
@@ -30,7 +25,7 @@ function onSubmitForm(event) {
 
 function sendMessageToScaleDrone(name, content) {
   drone.publish({
-    room: currentRoom,
+    room: 'general-chat',
     message: {
       name: name,
       content: content
