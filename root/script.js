@@ -3,6 +3,8 @@ var drone = new ScaleDrone('6kUd68NohslUvV6L');
 drone.on('open', function (error) {
   if (error) return console.error(error);
   
+  getRoom();
+  
   function getRoom() {
     currentRoom=prompt('Room to join?')
     var room = drone.subscribe(currentRoom);
