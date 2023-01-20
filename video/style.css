@@ -1,0 +1,47 @@
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 4fr 2fr 1fr 1fr;
+  grid-template-areas:
+    "r l"
+    "r n"
+    "c c";
+  grid-gap: 3px;
+}
+
+.remoteVideo {
+  grid-area: r;
+}
+#remoteVideo {
+  max-height: 750px;
+}
+.localVideo {
+  grid-area: l;
+}
+
+.notificationsBox {
+  background-color: red;
+  grid-area: n;
+}
+.chatBox {
+  background-color: black;
+  grid-area: c;
+}
+textarea {
+  width: -webkit-fill-available;
+  height: 100%;
+}
+video {
+  width: 100%;
+  height: auto;
+}
+input {
+  width: 95%;
+}
+
+.header-title {
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+}
