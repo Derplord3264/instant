@@ -13,3 +13,8 @@ Instant is a scaledrone based web IRC focused on privacy and a beutiful ui
   <li>Cyberslash</li>
   <li>ExpertCoder124</li>
 </ul>
+
+<h2>Unblocked Mirrors</h2>
+Due to a work or school proxy every so often new Mirrors are posted about every 
+2 days so you can chat to!
+CURRENT MIRROR: https://caenkolejones.github.io/Instant1/root/
